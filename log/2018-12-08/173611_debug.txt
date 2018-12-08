@@ -1,0 +1,7 @@
+2018-12-08 17:36:36,904 - 173611_debug - INFO - --> TestGbLogin.test_login
+2018-12-08 17:36:36,905 - 173611_debug - INFO -   --> GbLoginAction.do_login
+2018-12-08 17:37:18,628 - 173611_debug - ERROR - Exception, -32002 Client error: <> data: , method: None
+2018-12-08 17:37:18,629 - 173611_debug - ERROR -   <-- GbLoginAction.do_login, Exception, Error
+2018-12-08 17:37:18,629 - 173611_debug - ERROR - Exception, -32002 Client error: <> data: , method: None
+2018-12-08 17:37:18,629 - 173611_debug - ERROR - <-- TestGbLogin.test_login, Exception, Error
+
