@@ -1,6 +1,6 @@
 from src.gui.action.gb_login_action import GbLoginAction
 from src.util.decorator import *
-from test_suite_gb.test_case.test_base import BaseCase
+from test_case.test_base import BaseCase
 
 
 class TestGbLogin(BaseCase):

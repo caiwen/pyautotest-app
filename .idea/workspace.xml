@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de85cc8-0975-4931-a95f-9fc3c811aaa9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/action/base_action.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/action/gb_login_action.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/page/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/page/gb_login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/aTX_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/case_strategy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/devices_new.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/drivers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/my_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/read_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_suite_gb/test_case/test_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_suite_gb/test_case/test_gearbest_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/html_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/web_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_all_test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_all_test_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite_gb/test_case/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite_gb/test_case/test_gearbest_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_gearbest_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,17 +19,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pyautotest_app$run_all_test_case.coverage" NAME="run_all_test_case Coverage Results" MODIFIED="1544264130519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyautotest_app$Unittests_in_test_base_py.coverage" NAME="Unittests in test_base.py Coverage Results" MODIFIED="1544259085649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suite_gb/test_case" />
     <SUITE FILE_PATH="coverage/pyautotest_app$read_config.coverage" NAME="read_config Coverage Results" MODIFIED="1544249565883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/util" />
-    <SUITE FILE_PATH="coverage/pyautotest_app$Unittests_for_test_gearbest_login_TestGbLogin_test_login.coverage" NAME="Unittests for test_gearbest_login.TestGbLogin.test_login Coverage Results" MODIFIED="1544261770527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suite_gb/test_case" />
+    <SUITE FILE_PATH="coverage/pyautotest_app$Unittests_for_test_gearbest_login_TestGbLogin_test_login.coverage" NAME="Unittests for test_gearbest_login.TestGbLogin.test_login Coverage Results" MODIFIED="1544264212985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_gearbest_login.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_suite_gb/test_case/test_gearbest_login.py">
+      <file leaf-file-name="test_gearbest_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_gearbest_login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -47,9 +38,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="173207_debug.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/2018-12-08/173207_debug.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="run_all_test_case.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_all_test_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configparser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/configparser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="678" column="8" selection-start-line="678" selection-start-column="8" selection-end-line="678" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web_driver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/web_driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html_report.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/html_report.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="1262" column="74" selection-start-line="1262" selection-start-column="58" selection-end-line="1262" selection-end-column="74" />
+              <folding>
+                <element signature="e#4466#4481#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+              <folding>
+                <element signature="e#19#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/read_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#46#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="173538_debug.txt" pinned="false" current-in-tab="false">
@@ -57,76 +118,13 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="base_action.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/action/base_action.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gb_login_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/page/gb_login_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding>
-                <element signature="e#46#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_suite_gb/test_case/test_base.py">
+        <entry file="file://$PROJECT_DIR$/test_case/test_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/page/base_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="176">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="387" column="45" lean-forward="true" selection-start-line="387" selection-start-column="45" selection-end-line="387" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/test_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="e#46#55#0" expanded="true" />
+                <element signature="e#16#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +139,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>config</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -148,7 +151,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/util/case_strategy.py" />
-        <option value="$PROJECT_DIR$/run_all_test_case.py" />
         <option value="$PROJECT_DIR$/src/gui/action/base_action.py" />
         <option value="$PROJECT_DIR$/src/gui/page/base_page.py" />
         <option value="$PROJECT_DIR$/src/util/read_config.py" />
@@ -161,6 +163,10 @@
         <option value="$PROJECT_DIR$/test_suite_gb/test_case/test_base.py" />
         <option value="$PROJECT_DIR$/test_suite_gb/test_case/test_gearbest_login.py" />
         <option value="$PROJECT_DIR$/bootstrap/bootstrap.py" />
+        <option value="$PROJECT_DIR$/src/util/html_report.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/src/util/config.py" />
+        <option value="$PROJECT_DIR$/run_all_test_case.py" />
       </list>
     </option>
   </component>
@@ -194,48 +200,12 @@
             <path>
               <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="2018-12-08" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
@@ -246,12 +216,6 @@
             <path>
               <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
-              <item name="test_suite_gb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyautotest-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyautotest-app" type="462c0819:PsiDirectoryNode" />
-              <item name="test_suite_gb" type="462c0819:PsiDirectoryNode" />
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -269,12 +233,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code\python\pyautotest-app\data" />
       <recent name="E:\code\python\pyautotest-app\src\util" />
+      <recent name="E:\code\python\pyautotest-app\data" />
       <recent name="E:\code\python\pyautotest-app\config" />
       <recent name="E:\code\python\pyautotest-app\test_suite_gb\test_case" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\python\pyautotest-app" />
       <recent name="E:\code\python\pyautotest-app\test_suite_gb" />
     </key>
   </component>
@@ -310,12 +275,45 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="run_all_test_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyautotest-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all_test_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for test_case.test_gearbest_login.TestGbLogin.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pyautotest-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_case.test_gearbest_login.TestGbLogin.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyautotest-app" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_suite_gb/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -329,23 +327,26 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_suite_gb/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_suite_gb/test_case/test_base.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/test_base.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python.read_config" />
       <item itemvalue="Python tests.Unittests for test_gearbest_login.TestGbLogin.test_login" />
       <item itemvalue="Python tests.Unittests in test_base.py" />
+      <item itemvalue="Python.run_all_test_case" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for test_gearbest_login.TestGbLogin.test_login" />
+        <item itemvalue="Python.run_all_test_case" />
+        <item itemvalue="Python tests.Unittests for test_case.test_gearbest_login.TestGbLogin.test_login" />
         <item itemvalue="Python tests.Unittests in test_base.py" />
         <item itemvalue="Python.read_config" />
       </list>
@@ -365,15 +366,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_gearbest_login_TestGbLogin_test_login - 2018.12.08 at 17h 18m 15s.xml">
-      <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_gearbest_login_TestGbLogin_test_login - 2018.12.08 at 17h 18m 43s.xml">
-      <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_gearbest_login_TestGbLogin_test_login - 2018.12.08 at 17h 19m 49s.xml">
-      <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_gearbest_login_TestGbLogin_test_login - 2018.12.08 at 17h 20m 49s.xml">
       <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" configurationId="tests" />
     </history-entry>
@@ -393,6 +385,15 @@
       <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_gearbest_login_TestGbLogin_test_login - 2018.12.08 at 17h 37m 18s.xml">
+      <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_gearbest_login_TestGbLogin_test_login - 2018.12.08 at 17h 42m 06s.xml">
+      <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_gearbest_login_TestGbLogin_test_login - 2018.12.08 at 17h 54m 38s.xml">
+      <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_gearbest_login_TestGbLogin_test_login - 2018.12.08 at 17h 55m 20s.xml">
       <configuration name="Unittests for test_gearbest_login.TestGbLogin.test_login" configurationId="tests" />
     </history-entry>
   </component>
@@ -445,9 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/approot.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -457,16 +455,6 @@
           <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="1183" column="6" selection-start-line="1183" selection-start-column="6" selection-end-line="1183" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/case_strategy.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,9 +475,6 @@
           <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_all_test_case.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -522,13 +507,6 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/read_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -603,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_suite_gb/test_case/test_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/test_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -636,12 +607,83 @@
     <entry file="file://$PROJECT_DIR$/log/2018-12-08/173538_debug.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_suite_gb/test_case/test_gearbest_login.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/read_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#46#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/web_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/html_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="1262" column="74" selection-start-line="1262" selection-start-column="58" selection-end-line="1262" selection-end-column="74" />
+          <folding>
+            <element signature="e#4466#4481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="678" column="8" selection-start-line="678" selection-start-column="8" selection-end-line="678" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="e#19#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_gearbest_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all_test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
